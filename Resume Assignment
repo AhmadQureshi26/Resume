@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume</title>
+    <style>
+      body {
+        background-color: black;
+      }
+      .container {
+        color: black;
+        background-color: rgb(255, 255, 255);
+        border: 5px solid rgb(37, 0, 0);
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 200px;
+        margin-right: 200px;
+        padding: 20px;
+      }
+    
+      .border {
+        border: 2px solid rgb(0, 0, 0);
+      }
+      .email {
+        color: blue;
+      }
+      img {
+        border-radius: 0%;
+        position: absolute;
+        right: 20%;
+        top: 7%;
+      }
+
+      h3 {
+        color: whitesmoke;
+        background-color: rgb(84, 84, 197);
+        font-size: 17px;
+        font-family: "Times New Roman", Times, serif;
+      }
+      #institutes {
+        color: black;
+        background-color: rgb(171, 171, 245);
+        font-size: 20px;
+        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+      }
+      .grades {
+        padding-left: 350px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="border">
+        <h1>Ahmad Subhan</h1>
+        <img
+          src="/img2.JPG"
+          alt="No Image Found"
+          height="170px"
+          width="170px"
+        />
+        <p>City Add: H#236 Block A-1, M.A. Johar Town, Lahore</p>
+        <p>Mobile: 03028419479</p>
+        <p>
+          Email: <em class="email"> <u>ahmadsubhan.sa.as@gmail.com</u></em>
+        </p>
+
+        <h3>OBECTIVE</h3>
+        <li>
+          To work in a challenging environment where I can explore my potential
+          and utilize my abilities in communication skills and computer skills.
+        </li>
+
+        <h3>PROFESSIONAL SKILLS</h3>
+        <li>
+          While being an under-graduate in Computer Science program; proficient
+          in Microsoft Office’2016 (World, Excel and PowerPoint). Knowledge in
+          Programming Languages (Java, Python, & Assembly Language etc.) and
+          also have commendable skills in photography, videography and graphic
+          designing.
+        </li>
+        <h3>EDUCATIONAL BACKGROUND</h3>
+        <h3 id="institutes">
+          UNDER-GRADUTE: Comsats University Islamabad, Lahore Campus
+        </h3>
+        <p class="grades"><strong> BSCS 3.2CPGA </strong></p>
+        <h3 id="institutes">INTERMIDIATE: Kips College, Ameer Chowk</h3>
+        <p class="grades"><strong> A Grade </strong></p>
+        <h3 id="institutes">MATRIC: The Punjab School, Township Campus</h3>
+        <p class="grades"><strong> A+ Grade </strong></p>
+
+        <h3>PERSONAL INFORMATION</h3>
+        <p>
+          Single, Born on August 26, 1998-Lahore Pakistan. Good command in
+          communication skills in both English and Urdu. Able to learn quickly
+          and persistency. Dependable, analytical and hardworking: can work well
+          both as independently and as a team.
+        </p>
+
+        <h3>ACHIEVEMENTS</h3>
+        <p>
+          I got a Laptop under Shahbaz Sharif Youth Initiative as I secured 92%
+          marks in Matriculation.
+        </p>
+
+        <h3>AFFILIATION</h3>
+        <p>Member of photographic society (CUI).</p>
+      </div>
+    </div>
+  </body>
+</html>
